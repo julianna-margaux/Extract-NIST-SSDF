@@ -21,7 +21,6 @@ The program also displays a summary in the terminal showing the number of practi
 nist-ssdf-parser/
 ├── parse_nist_ssdf.py
 ├── README.md
-├── requirements.txt
 ├── input/
 │   └── NIST.SP.800-218.pdf
 └── output/
@@ -39,12 +38,6 @@ Install PyMuPDF using:
 
 ```bash
 python3 -m pip install pymupdf
-```
-
-Or install the dependencies from `requirements.txt`:
-
-```bash
-python3 -m pip install -r requirements.txt
 ```
 
 ## Usage
