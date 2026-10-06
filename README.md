@@ -45,7 +45,7 @@ python3 -m pip install pymupdf
 Run the parser using:
 
 ```bash
-python3 parse_nist_ssdf.py input/NIST.SP.800-218.pdf --output-dir output
+python3 parse_nist_ssdf.py NIST.SP.800-218.pdf --output-dir output
 ```
 
 The `--output-dir` argument specifies where the generated files will be saved.
